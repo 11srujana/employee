@@ -5,6 +5,6 @@ def get_employee_details(name, emp_id, department, salary):
         f"Department: {department}\n"
         f"Salary: {salary}"
     )
-if _name_ == "_main_":
+if __name__ == "__main__":
     print(get_employee_details("Alice", 101, "HR", 50000))
     
